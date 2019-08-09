@@ -1,0 +1,44 @@
+.row{
+    display:flex;
+    /*justify-content:space-around;*/
+    /*align-items:flex-start;*/
+}
+
+.row.week {
+    border-bottom: 1px solid #CCC;
+    margin-bottom:10px
+}
+
+
+
+.header-column {
+    flex: 1;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+div.workDay{
+    background-color:#fff; 
+}
+
+div.weekends {
+    background-color: #9AEA5E;
+}
+
+
+div.weekends:after {
+    content: "周 末";
+    color: #DD4A4A;
+}
+
+div.workDay:after {
+    content: "工作日";
+    color: #676164;
+
+}
+
+

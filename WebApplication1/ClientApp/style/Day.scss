@@ -1,0 +1,86 @@
+.column {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+div.column {
+    position:relative;
+    flex-grow: 1;
+    border: #ccc solid 1px;
+    margin-right:10px;
+    margin-bottom:10px;
+    min-height:145px;
+}
+
+div.column:after {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 2px 4px;
+    border-top-left-radius: 4px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+
+
+
+.record {
+    margin:0 25px
+}
+
+.recording{
+    padding-left:20px;
+    margin-top:0;
+}
+
+.recording li {
+    font-family: "Open Sans", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    list-style-type: circle;
+    color: #333333;
+    text-align:left;
+}
+
+.status {
+    position:absolute;
+    top:8px;
+    right:10px;
+    color:white;
+}
+
+.status .state {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #525288;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.state.bad {
+    background-color: #d9534f;
+}
+
+.state.good {
+    background-color: #5cb85c
+}
+
+.state.terrible {
+    background-color: #f0ad4e
+}
+
+.date{
+    text-align:left;
+    margin:10px 0;
+    font-size: 16px;
+    text-decoration: underline;
+}

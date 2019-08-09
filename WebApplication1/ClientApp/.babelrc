@@ -1,0 +1,25 @@
+{
+	"presets": [
+		"react",
+		"env",
+		"stage-0",
+		[
+			"es2015",
+			{ "modules": false }
+		]
+	],
+	"plugins": [
+		[
+			"import",
+			{ "libraryName": "antd" }
+		],
+		"transform-class-properties",
+		[
+			"transform-decorators-legacy",
+			{ "experimentalDecorators": true }
+		]
+	],
+	"ignore": [
+		"./lib/*.js"
+	]
+}

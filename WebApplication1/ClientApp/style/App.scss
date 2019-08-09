@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    padding-top: 8px;
+}
+
+.leftBar {
+    flex:0 0 125px;
+    padding: 0 10px;
+    
+}
+
+.content {
+    padding: 0 10px;
+    font-size: 14px;
+    flex-grow: 1;
+}
